@@ -22,7 +22,10 @@ a {
 .ms_button {
     padding: .4rem 1.1rem;
     border-radius: 20px;
-    color: white;
+}
+
+.margin-top-10 {
+    margin-top: 10rem;
 }
 
 /* HEADER */
@@ -100,4 +103,40 @@ a {
 
 .jumbotron .ms_button {
     background-color: #cd3d0f;
+    color: white;
+}
+
+/* SEZIONE GRID CARDS */
+.ms_grid-cards {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* SEZIONE ECCO LA PS5 */
+.ps5-text h6 {
+    color: #2c8ad6;
+}
+
+.ps5-section p {
+    color: #727272;
+}
+
+.ps5-section .ms_button {
+    background-color: #2d64e6;
+    color: white;
+}
+
+.ps5-section .ms_grid-cards:hover {
+    transform: scale(1);
+}
+
+.ps5-section .ps5-item-card {
+    width: 8rem;
+    padding: .5rem 0;
+    border-bottom: 2px solid transparent;
+}
+
+.ps5-section .ps5-item-card:hover {
+    border-color: #2d64e6;
+    cursor: pointer;
 }
