@@ -7,12 +7,76 @@ img {
     width: 100%;
 }
 
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ms_button {
+    padding: .4rem 1.1rem;
+    border-radius: 20px;
+}
+
 /* HEADER */
 .header-top {
     background-color: black;
-    padding: .8rem;
+    padding: .6rem;
+}
+
+.logo-sony {
+    width: 6rem;
+}
+
+.header-bottom {
+    height: 80px;
+    font-size: .9rem;
 }
 
 .logo-playstation {
-    width: 10rem;
+    display: inline-block;
+    width: 5rem;
+}
+
+.header-bottom nav {
+    line-height: 80px;
+}
+
+.header-bottom a {
+    color: black;
+}
+
+.header-bottom a i {
+    font-size: .7rem;
+    margin: 0 .3rem;
+    color: #737373;
+}
+
+.ms_right-menu li {
+    margin: 0 .3rem;
+}
+
+.ms_right-menu .ms_button {
+    background-color: black;
+    color: white;
+}
+
+.ms_right-menu #search i {
+    font-size: 1.5rem;
+    vertical-align: middle;
+    color: black;
+}
+
+/* .ms_burger-menu {
+    
+} */
+
+.ms_burger-menu i {
+    color: #737373;
 }
