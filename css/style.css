@@ -1,0 +1,18 @@
+/* COMMON */
+html {
+    font-size: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+/* HEADER */
+.header-top {
+    background-color: black;
+    padding: .8rem;
+}
+
+.logo-playstation {
+    width: 10rem;
+}
