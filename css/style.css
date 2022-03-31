@@ -40,7 +40,6 @@ a {
 }
 
 .logo-playstation {
-    display: inline-block;
     width: 5rem;
 }
 
@@ -73,10 +72,14 @@ a {
     color: black;
 }
 
-/* .ms_burger-menu {
-    
-} */
+.ms_burger-menu {
+    padding-right: 1rem;
+    line-height: 80px;
+}
 
-.ms_burger-menu i {
-    color: #737373;
+.ms_burger-menu a i {
+    font-size: 1.5rem;
+    border: 2px solid #e5e5e5;
+    border-radius: 5px;
+    padding: .1rem .7rem;
 }
