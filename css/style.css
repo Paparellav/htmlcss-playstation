@@ -28,7 +28,19 @@ a {
     margin-top: 10rem;
 }
 
+.bg-grey {
+    background-color: #1f1f1f;
+}
+
 /* HEADER */
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
 .header-top {
     background-color: black;
     padding: .6rem;
@@ -42,6 +54,7 @@ a {
     height: 80px;
     font-size: .9rem;
     font-weight: 500;
+    background-color: white;
 }
 
 .logo-playstation {
@@ -91,7 +104,8 @@ a {
 
 /* JUMBOTRON */
 .jumbotron {
-    padding-top: 12rem;
+    margin-top: 123.2px;
+    padding-top: 20rem;
     padding-bottom: 3rem;
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
@@ -109,6 +123,9 @@ a {
 /* SEZIONE GRID CARDS */
 .ms_grid-cards {
     overflow: hidden;
+}
+
+.ms_grid-cards img {
     border-radius: 10px;
 }
 
@@ -139,4 +156,31 @@ a {
 .ps5-section .ps5-item-card:hover {
     border-color: #2d64e6;
     cursor: pointer;
+}
+
+/* Secondo jumbotron */
+.second-jumbotron {
+    padding-bottom: 8rem;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.second-jumbotron .returnal-logo {
+    width: 15rem;
+}
+
+.second-jumbotron .ms_button {
+    background-color: #cd3d0f;
+    color: white;
+}
+
+/* Section ps4 */
+.ps4-section p {
+    color: #727272;
+}
+
+.ps4-section .card {
+    border: 0;
 }
