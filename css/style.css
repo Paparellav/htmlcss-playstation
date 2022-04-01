@@ -313,3 +313,7 @@ footer a {
     width: 8rem;
     margin-bottom: 1rem;
 }
+
+.footer-bottom a {
+    text-decoration: underline;
+}
