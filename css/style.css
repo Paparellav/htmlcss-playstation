@@ -24,6 +24,11 @@ a {
     border-radius: 20px;
 }
 
+.ms_button:hover {
+    outline: 2px solid;
+    outline-offset: 2px;
+}
+
 .margin-top-10 {
     margin-top: 10rem;
 }
@@ -43,7 +48,7 @@ header {
 
 .header-top {
     background-color: black;
-    padding: .6rem;
+    padding: .6rem 1.5rem;
 }
 
 .logo-sony {
@@ -84,6 +89,10 @@ header {
     color: white;
 }
 
+.ms_right-menu .ms_button:hover {
+    outline-color: black;
+}
+
 .ms_right-menu #search i {
     font-size: 1.5rem;
     vertical-align: middle;
@@ -120,9 +129,24 @@ header {
     color: white;
 }
 
+.jumbotron .ms_button:hover {
+    outline-color: #cd3d0f;
+}
+
 /* SEZIONE GRID CARDS */
 .ms_grid-cards {
     overflow: hidden;
+    transition: .1s linear;
+}
+
+.ms_grid-cards:hover {
+    transform: translate(0, -10px);
+}
+
+.ms_offset {
+    outline: 2px solid #2787d5;
+    outline-offset: 2px;
+    border-radius: 10px;
 }
 
 .ms_grid-cards img {
@@ -143,19 +167,26 @@ header {
     color: white;
 }
 
-.ps5-section .ms_grid-cards:hover {
-    transform: scale(1);
+.ps5-section .ms_button:hover {
+    outline-color: #2d64e6;
 }
 
 .ps5-section .ps5-item-card {
     width: 8rem;
     padding: .5rem 0;
     border-bottom: 2px solid transparent;
+    opacity: .7;
 }
 
 .ps5-section .ps5-item-card:hover {
     border-color: #2d64e6;
     cursor: pointer;
+    opacity: 1;
+}
+
+.ps5-section .ms_selected {
+    opacity: 1;
+    border-color: #2d64e6;
 }
 
 /* Secondo jumbotron */
@@ -176,6 +207,10 @@ header {
     color: white;
 }
 
+.second-jumbotron .ms_button:hover {
+    outline-color: #cd3d0f;
+}
+
 /* Section ps4 */
 .ps4-section p {
     color: #727272;
@@ -183,4 +218,29 @@ header {
 
 .ps4-section .card {
     border: 0;
+}
+
+.ps4-section .ms_button {
+    background-color: #2d64e6;
+    color: white;
+}
+
+.ps4-section .ms_button:hover {
+    outline: 2px solid #2d64e6;
+    outline-offset: 2px;
+}
+
+/* Sezione PS Plus */
+section.ps-plus {
+    background-color: #bebcbb;
+}
+
+section.ps-plus .ps-plus-item {
+    margin-top: 1rem;
+}
+
+section.ps-plus .ms_button {
+    border-color: transparent;
+    background-color: #d9dadc;
+    color: #2d64e6;
 }
