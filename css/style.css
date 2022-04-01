@@ -293,6 +293,12 @@ footer li {
 
 footer a {
     color: white;
+    border-bottom: 3px solid transparent;
+}
+
+footer a:hover {
+    color: white;
+    border-color: greenyellow;
 }
 
 .logo-playstation-footer {
