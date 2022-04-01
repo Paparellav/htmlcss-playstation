@@ -244,3 +244,8 @@ section.ps-plus .ms_button {
     background-color: #d9dadc;
     color: #2d64e6;
 }
+
+/* Section Sales */
+.ms_section-sales p {
+    color: #727272;
+}
