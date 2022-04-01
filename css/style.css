@@ -249,3 +249,22 @@ section.ps-plus .ms_button {
 .ms_section-sales p {
     color: #727272;
 }
+
+/* Section PS Now */
+section.ps-now {
+    padding: 1rem 0;
+    background-color: #161c3b;
+    color: white;
+}
+
+section.ps-now .ps-plus-item img {
+    width: 60%;
+}
+
+section.ps-now .ms_button {
+    border: none;
+}
+
+section.ps-now .ms_button:hover {
+    outline-color: white;
+}
