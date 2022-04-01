@@ -11,10 +11,6 @@ ul {
     list-style: none;
 }
 
-ul li {
-    display: inline-block;
-}
-
 a {
     text-decoration: none;
 }
@@ -44,6 +40,10 @@ header {
     top: 0;
     left: 0;
     z-index: 1;
+}
+
+header li {
+    display: inline-block;
 }
 
 .header-top {
@@ -118,6 +118,7 @@ header {
     padding-bottom: 3rem;
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .returnal-logo {
@@ -267,4 +268,48 @@ section.ps-now .ms_button {
 
 section.ps-now .ms_button:hover {
     outline-color: white;
+}
+
+/* Section Social */
+section.ms_social h1 {
+    font-size: 2.5rem;
+}
+
+/* Footer */
+footer {
+    padding: 3rem 0;
+    background-color: #00439c;
+    color: white
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer li {
+    margin-bottom: .5rem;
+}
+
+footer a {
+    color: white;
+}
+
+.logo-playstation-footer {
+    width: 5rem;
+}
+
+.globe {
+    display: inline-block;
+    width: 1rem;
+}
+
+.ms_country {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: .5rem;
+}
+
+.sie-logo {
+    width: 8rem;
+    margin-bottom: 1rem;
 }
